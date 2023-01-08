@@ -1,25 +1,36 @@
-# git
-
-`git version` # shows info about which `git` you're using  
+Global config makes it easy to set defaults:
 `git config --global user.name "yourname"`  
 `git config --global user.email "email@server"`  
 `git config --global --list`  
-`git clone `_github-https-url_  
+Adding file patterns to a project's `.gitignore` will ignore for that project only, adding these to the global `.gitignore` and running the next command will enable it globally:
+`git config –global core.excludesfile ~/.gitignore`
+
+Switching from https to ssh in an *existing* project, just run: 
+`git remote set-url origin git@github.com:repo/project.git` 
+
+Newly clone a project:
+`git clone git@github.com:repo/project.git`
+
+Other cmds:
 `git status`  
-`git branch develop` and `git branch -a`  
+`git branch -a`  *# list all branches*
 `git add `_someNewFile.txt_  
 `git commit -m "I'm committed to these changes"`  
-`git push origin master`  
-and of course  
-`git pull origin master`  
+
+Print a nice graph of all the commits and merges in the project:
+`git log --graph --abbrev-commit --decorate --date=relative --oneline --all`
+
+Preserve it for someone else:
+`git push origin main`  
+`git pull origin main`  
 
 ## Aliases 
 ```shell
 alias venv='source venv/bin/activate'
 alias pug='pip3 install --upgrade pip'
 alias gl='git log --graph --abbrev-commit --decorate --date=relative --oneline --all'
-alias gitModified='git status | grep modified | sed "s/\(.*modified:\s*\)//"'
-alias gitAddModified='git status | grep modified | sed "s/\(.*modified:\s*\)//" | xargs git add'
+alias gitMod='git status | grep modified | sed "s/\(.*modified:\s*\)//"'
+alias gitAddMod='git status | grep modified | sed "s/\(.*modified:\s*\)//" | xargs git add'
 alias gs='git status'
 alias gst='git status'
 alias gsw='git switch'
