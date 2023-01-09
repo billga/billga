@@ -4,7 +4,13 @@ Global config makes it easy to set defaults:
 `git config --global --list`  
 Adding file patterns to a project's `.gitignore` will ignore for that project only, adding these to the global `.gitignore` and running the next command will enable it globally:
 `git config –global core.excludesfile ~/.gitignore`
-
+For instance, my global `.gitignore` has:
+```text
+.DS_Store
+venv
+.idea
+.obsidian
+```
 Switching from https to ssh in an *existing* project, just run: 
 `git remote set-url origin git@github.com:repo/project.git` 
 

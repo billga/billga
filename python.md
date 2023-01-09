@@ -8,4 +8,5 @@ then:
 
 ```shell
 alias pug='pip3 install --upgrade pip'
+alias venv='source venv/bin/activate'
 ```

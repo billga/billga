@@ -1,7 +1,7 @@
 # Master ⇢ Main
 Lately, the term `master` was deprecated in favor of `main`. Newer `git` *should* default to `main`, but if it doesn't, follow the steps below.
 ### Changing from Remote
-to change older git installations and swap the default branch name, do this:
+to change older git installations and swap the default branch name, do this in an empty directory:
 ```bash
 $> git config --global init.defaultbranch main
 $> git init 
