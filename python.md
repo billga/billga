@@ -1,7 +1,8 @@
-# Python Tips 🐍
+**🐍 Tips**
 Offloading memory here...
 
-To create a virtualenv: 
+## Virtual env
+To create a virtual environment, as they all should be: 
 `python3 -m venv [name]`
 then: 
 `source [name]/bin/activate`

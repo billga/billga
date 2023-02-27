@@ -1,7 +1,11 @@
+## Commands
+### Global config
 Global config makes it easy to set defaults:
 `git config --global user.name "yourname"`  
 `git config --global user.email "email@server"`  
 `git config --global --list`  
+
+### Ignore
 Adding file patterns to a project's `.gitignore` will ignore for that project only, adding these to the global `.gitignore` and running the next command will enable it globally:
 `git config –global core.excludesfile ~/.gitignore`
 For instance, my global `.gitignore` has:
@@ -11,9 +15,12 @@ venv
 .idea
 .obsidian
 ```
+
+### Sync transport
 Switching from https to ssh in an *existing* project, just run: 
 `git remote set-url origin git@github.com:repo/project.git` 
 
+### Clone
 Newly clone a project:
 `git clone git@github.com:repo/project.git`
 
@@ -29,6 +36,8 @@ Print a nice graph of all the commits and merges in the project:
 Preserve it for someone else:
 `git push origin main`  
 `git pull origin main`  
+
+If your branch is stuck on `master`, go look at [[main|Fixing Main]].
 
 ## Aliases 
 ```shell
