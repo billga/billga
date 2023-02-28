@@ -12,7 +12,7 @@
 
 </ul>
 
-<h2>Appeals to Motives in Place of Support</h2>
+## Appeals to Motives in Place of Support
 
 <ul>
 
@@ -28,7 +28,7 @@
 
 </ul>
 
-<h2>Changing the Subject</h2>
+## Changing the Subject
 
 <ul>
 
@@ -62,7 +62,7 @@
 
 </ul>
 
-<h2>Inductive Fallacies</h2>
+## Inductive Fallacies
 
 <ul>
 
@@ -78,7 +78,7 @@
 
 </ul>
 
-<h2>Fallacies Involving Statistical Syllogisms</h2>
+## Fallacies Involving Statistical Syllogisms
 
 <ul>
 
@@ -88,7 +88,7 @@
 
 </ul>
 
-<h2>Causal Fallacies</h2>
+## Causal Fallacies
 
 <ul>
 
@@ -104,7 +104,7 @@
 
 </ul>
 
-<h2>Missing the Point</h2>
+## Missing the Point
 
 <ul>
 
@@ -116,7 +116,7 @@
 
 </ul>
 
-<h2>Fallacies of Ambiguity</h2>
+## Fallacies of Ambiguity
 
 <ul>
 
@@ -128,7 +128,7 @@
 
 </ul>
 
-<h2>Category Errors</h2>
+## Category Errors
 
 <ul>
 
@@ -138,7 +138,7 @@
 
 </ul>
 
-<h2>Non Sequitur</h2>
+## Non Sequiteur
 
 <ul>
 
@@ -150,7 +150,7 @@
 
 </ul>
 
-<h2>Syllogistic Errors</h2>
+## Syllogistic Errors
 
 <ul>
 
@@ -170,7 +170,7 @@
 
 </ul>
 
-<h2>Fallacies of Explanation</h2>
+## Fallacies of Explanation
 
 <ul>
 
@@ -186,7 +186,7 @@
 
 </ul>
 
-<h2>Fallacies of Definition</h2>
+## Fallacies of Definition
 
 <ul>
 
@@ -202,7 +202,6 @@
 
 </ul>
 
-<pre>
 
 Appeal to Tradition: "we never did it that way before"
 
